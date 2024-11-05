@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="getstarted.css">
+    <title>NextStep Counseling Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Career Counseling Form</h1>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="interests">Interests:</label>
+            <select id="interests" name="interests" required>
+                <option value="">Select...</option>
+                <option value="science">Science</option>
+                <option value="arts">Arts</option>
+                <option value="technology">Technology</option>
+                <option value="business">Business</option>
+                <option value="engineering">Engineering</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
